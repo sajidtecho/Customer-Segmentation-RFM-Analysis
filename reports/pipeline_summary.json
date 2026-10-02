@@ -1,0 +1,21 @@
+{
+    "raw_rows": 541909,
+    "raw_customers": 4372,
+    "raw_invoices": 25900,
+    "raw_countries": 38,
+    "cleaned_rows": 392692,
+    "removed_rows": 149217,
+    "cancellations_removed": 8872,
+    "missing_customer_id_removed": 135037,
+    "cleaned_unique_customers": 4338,
+    "cleaned_unique_invoices": 18532,
+    "total_revenue": 8887208.89,
+    "avg_order_value": 479.56,
+    "avg_customer_revenue": 2048.69,
+    "snapshot_date": "2011-12-10 12:50:00",
+    "min_invoice_date": "2010-12-01 08:26:00",
+    "max_invoice_date": "2011-12-09 12:50:00",
+    "num_segments": 9,
+    "kmeans_silhouette_score": 0.3375,
+    "k_clusters": 4
+}
