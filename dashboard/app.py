@@ -51,7 +51,7 @@ st.markdown("""
         color: #0F172A;
     }
 </style>
-""", unsafe_allow_shortcut=True)
+""", unsafe_allow_html=True)
 
 @st.cache_data
 def load_data():
@@ -115,8 +115,8 @@ filtered_tx = filtered_tx[
 # =========================================================
 # HEADER & EXECUTIVE KPI CARDS
 # =========================================================
-st.markdown('<div class="main-header">Customer Segmentation & RFM Analytics</div>', unsafe_allow_shortcut=True)
-st.markdown('<div class="sub-header">Executive Dashboard for E-Commerce Transaction Analysis & Customer Segmentation</div>', unsafe_allow_shortcut=True)
+st.markdown('<div class="main-header">Customer Segmentation & RFM Analytics</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Executive Dashboard for E-Commerce Transaction Analysis & Customer Segmentation</div>', unsafe_allow_html=True)
 
 # Metrics Calculation
 total_revenue = filtered_tx["Revenue"].sum()
